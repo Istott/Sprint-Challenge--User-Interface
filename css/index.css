@@ -52,8 +52,10 @@ table {
 }
 
 html, body {
-    height: 100%;
+    
     font-family: 'Roboto', sans-serif;
+    width: 100%;
+    border: 1px white solid;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,6 +71,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+   
 }
 
 .top{
@@ -291,3 +294,96 @@ footer nav a {
 
 /*about.html code below*/
 
+.container1{
+    border: 3px white solid;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top1{
+    padding: 0 23%;
+    border: 1px white solid;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.top1 .navigation{
+    display: flex;
+    align-items: center;
+    border: 1px white solid;
+    width: 80%;
+    height: 10vh;
+    
+}
+
+.top1 .navigation nav{
+    width: 100%;
+    padding: 4% 0;
+    border: 1px white solid;
+    height: 5vh;
+}
+
+.top1 .navigation nav a{
+    padding: 0 6%;
+    color: black;
+}
+
+.topinfo1{
+    padding: 0 23%
+}
+
+.aboutstuff{
+    padding: 0 23%;
+    
+}
+
+.aboutstuff p{
+    border-bottom: 2px gray dotted;
+    padding: 0 0 2% 0;
+}
+
+.middlestuff{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px white solid;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2% 21%
+    
+}
+
+.group1{
+    border-bottom: 2px gray dotted;
+    width: 45%;
+    padding:2% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.bottomstuff{
+    padding: 2% 23%
+}
+
+.footer1 {
+    width: 830px;
+    background: black;
+    margin: 0 auto;
+    border: 1px white solid;
+}
+
+.footer1 nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.footer1 nav a {
+    color: white;
+    text-decoration: none;
+}
